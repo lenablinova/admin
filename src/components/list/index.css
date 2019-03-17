@@ -1,0 +1,47 @@
+.list {
+  width: 100%;
+  margin: 40px auto;
+  border: 1px solid lightgrey;
+border-collapse: collapse;
+font-size:14px;
+box-shadow: 2px 2px 5px lightgrey, -1px -1px 5px lightgrey;
+
+}
+thead{
+  font-weight: bold;
+  background: rgb(215, 220, 221);
+}
+tr:hover{
+  background: rgb(242, 244, 245);
+  box-shadow: 2px 0 1px green;
+}
+td {
+  padding: 0 20px;
+  text-align: left;
+  height: 40px;
+  border-bottom: 1px solid lightgrey;
+}
+button {
+  width: 60px;
+
+  background: rgb(204, 204, 209);
+  border-radius: 4px;
+}
+
+a {
+  text-decoration: unset;
+  color: black;
+}
+
+.row{
+  text-align: end;
+  padding: 0 20px;
+
+}
+.row button {
+  height: 40px;
+  width: 120px;
+}
+.cell {
+  text-align: right;
+}
